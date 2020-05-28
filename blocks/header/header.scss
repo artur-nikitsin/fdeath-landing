@@ -1,0 +1,74 @@
+.header {
+  width: 75vw;
+  height: 805px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #eff0f2;
+
+
+  border: 1px dashed green;
+
+  .header-logo {
+    margin: 3.333vw 0 0 7.813vw;
+  }
+
+  .header-text {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20vh 0 14.7vh 0.5vw;
+    font-size: 2.41vw;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    /*line-height: 0.622;*/
+    text-align: center;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+    letter-spacing: 0.02em;
+
+  }
+
+
+  .header-cup {
+
+    margin: -3vh 0 0 58.542vw;
+
+
+  }
+
+
+  .header-button {
+    /*position: absolute;*/
+    height: 5.656vh;
+    width: 12.083vw;
+    margin: 0 31.458vw 0 31.458vw;
+    color: rgba(0, 0, 0, 0.749);
+    padding: 0 0 0 4px;
+    border: 2px solid #777879;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+  }
+
+
+}
+
+.box {
+  border: 1px dashed green;
+}
+
+
+.CONTACT_US {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgba(0, 0, 0, 0.749);
+  text-transform: uppercase;
+  line-height: 1.556;
+  position: absolute;
+  left: 651.664px;
+  top: 569.496px;
+  z-index: 27;
+}
