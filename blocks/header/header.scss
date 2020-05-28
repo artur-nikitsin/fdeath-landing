@@ -24,20 +24,20 @@
     text-align: center;
     text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
     letter-spacing: 0.02em;
-
+    z-index: 100;
   }
 
 
   .header-cup {
 
     margin: -3vh 0 0 58.542vw;
-
+    width: 4.4vw;
+    height: auto;
 
   }
 
 
   .header-button {
-    /*position: absolute;*/
     height: 5.656vh;
     width: 12.083vw;
     margin: 0 31.458vw 0 31.458vw;
@@ -53,22 +53,58 @@
 
   }
 
+  .header-button:hover,
+  .header-button:focus {
+    height: 5.656vh;
+    width: 12.083vw;
+    margin: 0 31.458vw 0 31.458vw;
+    background: rgba(118, 244, 234, 0.5);
+    padding: 0 0 0 4px;
+    border: 2px solid #777879;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 200ms linear;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
 .box {
-  border: 1px dashed green;
+  /*border: 1px dashed green;*/
 }
 
 
-.CONTACT_US {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: rgba(0, 0, 0, 0.749);
-  text-transform: uppercase;
-  line-height: 1.556;
+.header-text-background {
+  background: rgba(118, 244, 234, 0.5);
+  padding: 0 5px 0 5px;
+  margin: 0 -5px 0 -5px;
+  height: 2.5vw;
+}
+
+.Rectangle_42 {
+  background-color: rgb(118, 244, 234);
+  opacity: 0.502;
   position: absolute;
-  left: 651.664px;
-  top: 569.496px;
-  z-index: 27;
+  left: 784px;
+  top: 305px;
+  width: 255px;
+  height: 54px;
+  z-index: 4;
 }
+
