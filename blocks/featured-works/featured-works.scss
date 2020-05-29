@@ -1,7 +1,27 @@
 .featured-works {
-  position: relative;
-  width: 1440px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 75vw;
   height: 1165px;
   background-color: #ffffff;
   border: 1px dashed red;
+
+
+  .featured-works-examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    .examles-item {
+      margin: 4px;
+    }
+
+
+  }
 }

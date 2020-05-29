@@ -1,20 +1,84 @@
 .about-us {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: flex-start;
 
-  flex-wrap: wrap;
-  align-items: center;
-  position: relative;
-  width: 1440px;
-  height: 981px;
+
+  width: 75vw;
+  height: 51.094vw;
   background-color: #f8fafa;
   border: 1px dashed red;
+
+  .about-us-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    h1 {
+
+      font-size: 2vw;
+      font-family: "Montserrat";
+      color: rgba(0, 0, 0, 0.902);
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin: 6vw 0 -0.6vw 1vw;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 1.055vw;
+      font-family: "Merriweather";
+      color: rgba(0, 0, 0, 0.62);
+      text-transform: uppercase;
+      /*line-height: 1.556;
+      text-align: center;*/
+
+      /*left: 409.664px;
+      top: 972.496px;
+      z-index: 46;*/
+
+    }
+
+
+  }
+
+
 }
 
 .about-us-content {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
+
+  .about-us-image {
+    margin: 6.4vw 7.8vw 0 12vw;
+    background-color: rgb(228, 229, 232);
+    box-shadow: 0px 0px 30px 0px rgba(20, 20, 21, 0.13);
+  }
+
+  .about-us-text {
+    width: 25vw;
+    margin: 0 0 0 0.2vw;
+
+
+    h2 {
+      font-size: 1.155vw;
+      font-family: "Merriweather";
+      color: rgba(0, 0, 0, 0.749);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1vw;
+      font-family: "Raleway";
+      color: rgba(0, 0, 0, 0.741);
+      letter-spacing: 1px;
+
+    }
+
+  }
 
 }
