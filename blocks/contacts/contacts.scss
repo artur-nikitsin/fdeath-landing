@@ -1,0 +1,22 @@
+.contacts {
+  height: 662px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .send-message {
+    width: 600px;
+    height: 200px;
+    margin: 0 50px 0 0;
+    border: 1px solid red;
+  }
+
+
+  .map {
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+  }
+
+}

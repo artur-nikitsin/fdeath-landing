@@ -1,7 +1,65 @@
 .small-team {
   position: relative;
   width: 1440px;
-  height: 2062px;
+  height: 1400px;
   background-color: #f9fbfb;
   border: 1px dashed red;
+
+
+  .small-team-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    h1 {
+
+      font-size: 2.01vw;
+      font-family: "Montserrat";
+      color: rgba(0, 0, 0, 0.902);
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin: 4.7vw 0 -0.6vw 0;
+      letter-spacing: 1.7px;
+      word-spacing: -2px;
+      font-stretch: ultra-condensed;
+    }
+
+    h2 {
+      font-size: 1.01vw;
+      font-family: "Merriweather";
+      color: rgba(0, 0, 0, 0.62);
+      text-transform: uppercase;
+      font-stretch: ultra-condensed;
+
+    }
+
+
+  }
+
+  .small-team-examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5vw 0 0 0;
+
+
+    .person-item {
+      margin: 4px;
+      cursor: pointer;
+    }
+
+    .person-item:hover,
+    .person-item:focus {
+      margin: 4px;
+      opacity: 0.5;
+      cursor: pointer;
+      transition: opacity 200ms linear;
+    }
+
+
+  }
 }
+
+
