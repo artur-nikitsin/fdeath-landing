@@ -11,16 +11,61 @@
   border: 1px dashed red;
 
 
-  .featured-works-examples {
+  .featured-works-header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 
+    h1 {
+
+      font-size: 2vw;
+      font-family: "Montserrat";
+      color: rgba(0, 0, 0, 0.902);
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin: 6vw 0 -0.6vw 1vw;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 1.055vw;
+      font-family: "Merriweather";
+      color: rgba(0, 0, 0, 0.62);
+      text-transform: uppercase;
+      /*line-height: 1.556;
+      text-align: center;*/
+
+      /*left: 409.664px;
+      top: 972.496px;
+      z-index: 46;*/
+
+    }
+
+
+  }
+
+  .featured-works-examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4vw 0 0 0;
+
 
     .examles-item {
       margin: 4px;
+      cursor: pointer;
     }
+
+    .examles-item:hover,
+    .examles-item:focus{
+      margin: 4px;
+      opacity: 0.5;
+      cursor: pointer;
+      transition: background-color 200ms linear;
+    }
+
 
 
   }

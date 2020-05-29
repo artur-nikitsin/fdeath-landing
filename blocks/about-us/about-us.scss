@@ -7,7 +7,6 @@
   width: 75vw;
   height: 51.094vw;
   background-color: #f8fafa;
-  border: 1px dashed red;
 
   .about-us-header {
     display: flex;
@@ -59,23 +58,36 @@
   }
 
   .about-us-text {
-    width: 25vw;
-    margin: 0 0 0 0.2vw;
-
+    width: 26vw;
+    padding: 0 0 0 0.2vw;
+    margin: 5.2vw 0 0 0;
 
     h2 {
-      font-size: 1.155vw;
+      font-size: 1.4em;
       font-family: "Merriweather";
       color: rgba(0, 0, 0, 0.749);
       font-weight: bold;
       text-transform: uppercase;
+      margin: 0 0 1vw 0;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      font-family: "Merriweather";
+      color: rgba(0, 0, 0, 0.749);
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 1.5vw 0 1vw 0;
     }
 
     p {
-      font-size: 1vw;
+      font-size: 1.16em;
       font-family: "Raleway";
       color: rgba(0, 0, 0, 0.741);
-      letter-spacing: 1px;
+      line-height: 28px;
+      letter-spacing: 0.8px;
+      word-spacing: 0.4px;
+      margin: 0 0 1.4vw 0;
 
     }
 
