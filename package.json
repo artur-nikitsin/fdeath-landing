@@ -4,7 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "homepage": "https://github.com/artur-nikitsin/fdeath-landing/",
-  "dependencies": {},
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  },
   "devDependencies": {
     "css-loader": "^3.5.3",
     "gh-pages": "^2.2.0",

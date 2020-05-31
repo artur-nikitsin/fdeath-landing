@@ -46,13 +46,13 @@
 
 
     .person-item {
-      margin: 4px;
+      margin: 5px 6px 6px 5px;
       cursor: pointer;
     }
 
     .person-item:hover,
     .person-item:focus {
-      margin: 4px;
+      margin: 5px 6px 6px 5px;
       opacity: 0.5;
       cursor: pointer;
       transition: opacity 200ms linear;
