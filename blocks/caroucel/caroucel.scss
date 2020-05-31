@@ -1,0 +1,75 @@
+/*
+!* Слайдшоу *!
+
+#slideshow .lp-content {
+  position: relative;
+  padding: 0;
+}
+
+
+
+.owl-dots {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+.owl-dot {
+  display: inline-block;
+  padding: 0 10px;
+  opacity: 0.75;
+}
+
+.owl-dot span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 100%;
+  transition: background-color .25s;
+}
+
+
+
+.owl-dot.active span {
+  background: black;
+}
+
+
+.owl-nav>div {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  !*background: rgba(0, 0, 0, 0.3);*!
+  !*border-radius: 100%;*!
+  opacity: 0.75;
+  text-align: center;
+  transition: opacity .25s;
+}
+
+.owl-nav>div:hover {
+  opacity: 0.95;
+}
+
+.owl-prev {
+  left: -40px;
+}
+
+.owl-next {
+  right: -40px;
+}
+
+.owl-nav i {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.3);
+  line-height: 40px;
+}*/
+
+
