@@ -1,22 +1,21 @@
-/*
-!* Слайдшоу *!
+/* Слайдшоу */
 
-#slideshow .lp-content {
-  position: relative;
-  padding: 0;
+
+.owl-nav {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-
 .owl-dots {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 20px;
   width: 100%;
   text-align: center;
   padding-bottom: 20px;
 }
-
 
 
 .owl-dot {
@@ -29,11 +28,11 @@
   display: inline-block;
   width: 10px;
   height: 10px;
-  background: #fff;
+  background: rgb(138, 138, 138);;
   border-radius: 100%;
   transition: background-color .25s;
+  margin: 3px;
 }
-
 
 
 .owl-dot.active span {
@@ -41,20 +40,20 @@
 }
 
 
-.owl-nav>div {
+.owl-nav > div {
   position: absolute;
   top: 50%;
   width: 40px;
   height: 40px;
   margin-top: -20px;
-  !*background: rgba(0, 0, 0, 0.3);*!
-  !*border-radius: 100%;*!
+  /*background: rgba(0, 0, 0, 0.3);*/
+  /*border-radius: 100%;*/
   opacity: 0.75;
   text-align: center;
   transition: opacity .25s;
 }
 
-.owl-nav>div:hover {
+.owl-nav > div:hover {
   opacity: 0.95;
 }
 
@@ -70,6 +69,6 @@
   font-size: 50px;
   color: rgba(0, 0, 0, 0.3);
   line-height: 40px;
-}*/
+}
 
 

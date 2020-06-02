@@ -1,7 +1,68 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 1440px;
-  height: 314px;
+  width: 100%;
+  max-width: 1440px;
+  height: 320px;
   background-color: #262b2e;
-  border: 1px dashed red;
+  z-index: 100;
+
+
+  .follow-us {
+    margin: -50px 0 0 -10px;
+
+    p {
+      font-size: 16px;
+      font-family: "Raleway", sans-serif;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1px;
+      text-transform: uppercase;
+    }
+
+
+  }
+
+  .social {
+
+    display: flex;
+    margin: 5px 0 0 -44px;
+
+    li {
+      list-style-type: none;
+      font-size: 20px;
+      text-align: center;
+      height: 40px;
+      width: 44px;
+      background-color: rgb(138, 138, 138);
+      color: white;
+      fill: #eff0f2;
+      opacity: 0.4;
+      margin: 4px;
+      padding: 3px 0 0 0;
+      z-index: 2000;
+    }
+
+    li:hover,
+    li:focus {
+      list-style-type: none;
+      font-size: 20px;
+      text-align: center;
+      height: 40px;
+      width: 44px;
+      background-color: rgb(110, 238, 228);
+      color: rgba(0, 0, 0, 0.949);
+      fill: #eff0f2;
+      margin: 4px;
+      padding: 3px 0 0 0;
+      z-index: 2000;
+      cursor: pointer;
+      transition: background-color 200ms linear;
+
+    }
+
+
+  }
 }

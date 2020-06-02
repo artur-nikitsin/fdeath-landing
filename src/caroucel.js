@@ -1,7 +1,7 @@
 /*import 'owl.carousel/dist/assets/owl.carousel.min.css';*/
 
 import 'owl.carousel';
-import '@fortawesome/fontawesome-free';
+
 
 import $ from "jquery";
 
