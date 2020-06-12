@@ -47,14 +47,14 @@
       padding: 0 5px 0 5px;
       margin: 0 -5px 0 -5px;
       height: 38px; }
-  .header .header-cup {
+  .header .header__cup {
     align-self: flex-end;
     margin: 40px 12.18vw 40px 0; }
     @media screen and (min-width: 1920px) {
-      .header .header-cup {
+      .header .header__cup {
         align-self: flex-end;
         margin: -25px 234px 0 0; } }
-    .header .header-cup img {
+    .header .header__cup img {
       /*width: 4.4vw;*/
       width: 84px;
       height: auto; }
