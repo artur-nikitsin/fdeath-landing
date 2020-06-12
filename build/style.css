@@ -4,15 +4,22 @@
 .header {
   width: 100%;
   max-width: 1440px;
-  height: 806px;
+  min-height: 806px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   background-color: #eff0f2;
   z-index: 100; }
-  .header .header-logo {
-    margin: 64px 0 0 150px; }
-  .header .header-text {
+  .header .header__logo {
+    align-self: flex-start;
+    flex-direction: row;
+    margin: 3.333vw 0 0 7.813vw; }
+    @media screen and (min-width: 1920px) {
+      .header .header__logo {
+        margin: 64px 0 0 150px; } }
+  .header .header__text {
     font-family: 'Montserrat', sans-serif;
     margin: 190px 0 0 0;
     font-size: 45px;
@@ -25,14 +32,34 @@
     text-shadow: 0 9px 10px rgba(0, 0, 0, 0.24);
     letter-spacing: 2px;
     z-index: 100; }
+    @media screen and (max-width: 1920px) {
+      .header .header__text {
+        margin: 9.9vw 0 0 0; } }
+    @media screen and (max-width: 350px) {
+      .header .header__text {
+        margin: 40px 0 0 0;
+        font-size: 35px;
+        line-height: 50px; } }
+    .header .header__text .header__text-background {
+      background: rgba(118, 244, 234, 0.5);
+      padding: 0 5px 0 5px;
+      margin: 0 -5px 0 -5px;
+      height: 38px; }
   .header .header-cup {
-    margin: -25px 0 0 1122px;
-    width: 4.4vw;
-    height: auto; }
-  .header .header-button {
+    align-self: flex-end;
+    margin: 40px 12.18vw 30px 0; }
+    @media screen and (min-width: 1920px) {
+      .header .header-cup {
+        align-self: flex-end;
+        margin: -25px 234px 0 0; } }
+    .header .header-cup img {
+      /*width: 4.4vw;*/
+      width: 84px;
+      height: auto; }
+  .header .header__button {
     height: 53px;
     width: 232px;
-    margin: 135px 0 0 603px;
+    margin: 135px 0 0 0;
     color: rgba(0, 0, 0, 0.749);
     padding: 0 0 0 4px;
     border: 2px solid #777879;
@@ -42,11 +69,14 @@
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: bold; }
-  .header .header-button:hover,
-  .header .header-button:focus {
+    @media screen and (max-width: 1920px) {
+      .header .header__button {
+        margin: 7.031vw 0 0 0; } }
+  .header .header__button_active:hover,
+  .header .header__button_active:focus {
     height: 53px;
     width: 232px;
-    margin: 135px 0 0 603px;
+    margin: 135px 0 0 0;
     background: rgba(118, 244, 234, 0.5);
     padding: 0 0 0 4px;
     border: 2px solid #777879;
@@ -58,12 +88,6 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 200ms linear; }
-
-.header-text-background {
-  background: rgba(118, 244, 234, 0.5);
-  padding: 0 5px 0 5px;
-  margin: 0 -5px 0 -5px;
-  height: 38px; }
 
 .about-us {
   display: flex;
