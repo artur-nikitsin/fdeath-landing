@@ -2,14 +2,21 @@
 
 
 .about-us {
+
+
+  @media screen and (min-width: 1440px) {
+    min-height: 982px;
+    width: 100%;
+    max-width: 1440px;
+  }
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 
   width: 100%;
-  max-width: 1440px;
-
-  height: 982px;
+  padding: 0 0 40px 0;
+  height: auto;
   background-color: #f8fafa;
 
 
@@ -28,47 +35,88 @@
 }
 
 .about-us-content {
+
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
-  margin: 0 0 0 0;
+  align-items: flex-start;
+
+
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+  }
 
 
   .about-us-image {
-    margin: 135px 0 0 228px;
-    background-color: rgb(228, 229, 232);
+    @media screen and (min-width: 1440px) {
+      margin: 135px 0 0 228px;
+    }
+    @media screen and (min-width: 900px) {
+      margin: 135px 0 0 11.875vw;
+    }
+    @media screen and (max-width: 900px) {
+      /*margin: 0 0 0 -30px;*/
+      max-width: 392px;
+      width: 100%;
+      height: auto;
+    }
+
+    /* background-color: rgb(228, 229, 232);*/
     box-shadow: 0 0 30px 0 rgba(20, 20, 21, 0.13);
 
   }
 
   .about-us-text {
-    width: 500px;
-    /*padding: 0 100px 0 0.2vw;*/
-    margin: 100px 0 0 150px;
+
+    @media screen and (min-width: 1440px) {
+      width: 500px;
+      margin: 100px 0 0 150px;
+
+    }
+    @media screen and (max-width: 1440px) {
+      max-width: 500px;
+      margin: 100px 30px 0 7.813vw;
+
+    }
+    @media screen and (max-width: 900px) {
+      margin: 0 0 0 -30px;
+      padding: 30px ;
+
+    }
+
+    width: 100%;
+    height: auto;
+    padding: 30px 0 0 10px;
 
 
     h2 {
-      font-size: 22px;
-      font-family: "Merriweather";
+      font-size: 21px;
+      font-family: 'Merriweather', serif;
       color: rgba(0, 0, 0, 0.749);
       font-weight: bold;
       text-transform: uppercase;
-      margin: 5px 0 20px 0;
+      letter-spacing: 1px;
+      margin: 5px 0 10px 0;
     }
 
     h3 {
       font-size: 20px;
-      font-family: "Merriweather";
+      font-family: 'Merriweather', serif;
       color: rgba(0, 0, 0, 0.749);
       font-weight: bold;
       text-transform: uppercase;
-      margin: 25px 0 15px 0;
+      margin: 30px 0 15px 0;
     }
 
     p {
-      font-size: 18px;
-      font-family: "Raleway";
+      font-size: 15px;
+      font-family: 'Raleway', serif;
       color: rgba(0, 0, 0, 0.741);
       line-height: 28px;
       letter-spacing: 1px;
