@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px 40px 20px;
 
   @media screen and (min-width: 1440px) {
     width: 100%;
@@ -20,8 +20,8 @@
     width: 610px;
     height: 457px;
     margin: 45px 0 0 0;
-    background-color: rgb(2, 22, 35);
-    opacity: 0.71;
+    background-color: rgba(2, 22, 35, 0.71);
+   /* opacity: 0.71;*/
     box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
 
     .inputs-container {
@@ -34,8 +34,7 @@
       @mixin input {
         height: 40px;
         border: 0 solid #fff;
-        background-color: rgb(2, 22, 35);
-        opacity: 0.71;
+        background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0;
 
@@ -68,8 +67,7 @@
       .message-input {
         height: 100px;
         border: 0 solid rgba(255, 255, 255, 0.7);;
-        background-color: rgb(2, 22, 35);
-        opacity: 0.71;
+        background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -10px 0 0 0;
       }
@@ -96,14 +94,14 @@
     width: 500px;
     height: 457px;
     margin: 45px 0 0 25px;
-    background-color: rgb(2, 22, 35);
-    opacity: 0.71;
+    background-color: rgba(2, 22, 35, 0.71);
+
     padding: 0 20px 0 20px;
     box-shadow: 0 0 3px 0 rgba(21, 21, 21, 0.16);
     z-index: 1;
 
     @media screen and (max-width: 1000px) {
-      margin: 37px 0 40px 0;
+      margin: 37px 0 0 0;
       width: 100%;
       max-width: 500px;
     }

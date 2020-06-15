@@ -362,10 +362,9 @@
       text-align: center;
       height: 40px;
       width: 44px;
-      background-color: #8a8a8a;
+      background-color: rgba(138, 138, 138, 0.4);
       color: white;
       fill: #eff0f2;
-      opacity: 0.4;
       margin: 4px;
       padding: 3px 0 0 0;
       z-index: 2000; }
@@ -393,7 +392,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 40px 20px 0 20px; }
+  padding: 40px 20px 40px 20px; }
   @media screen and (min-width: 1440px) {
     .contacts {
       width: 100%;
@@ -403,8 +402,8 @@
     width: 610px;
     height: 457px;
     margin: 45px 0 0 0;
-    background-color: #021623;
-    opacity: 0.71;
+    background-color: rgba(2, 22, 35, 0.71);
+    /* opacity: 0.71;*/
     box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12); }
     .contacts .send-message .inputs-container {
       display: flex;
@@ -421,29 +420,25 @@
       .contacts .send-message .inputs-container .name-input {
         height: 40px;
         border: 0 solid #fff;
-        background-color: #021623;
-        opacity: 0.71;
+        background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0; }
       .contacts .send-message .inputs-container .subject-input {
         height: 40px;
         border: 0 solid #fff;
-        background-color: #021623;
-        opacity: 0.71;
+        background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0; }
       .contacts .send-message .inputs-container .email-input {
         height: 40px;
         border: 0 solid #fff;
-        background-color: #021623;
-        opacity: 0.71;
+        background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0; }
       .contacts .send-message .inputs-container .message-input {
         height: 100px;
         border: 0 solid rgba(255, 255, 255, 0.7);
-        background-color: #021623;
-        opacity: 0.71;
+        background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -10px 0 0 0; }
       .contacts .send-message .inputs-container textarea::placeholder {
@@ -458,14 +453,13 @@
     width: 500px;
     height: 457px;
     margin: 45px 0 0 25px;
-    background-color: #021623;
-    opacity: 0.71;
+    background-color: rgba(2, 22, 35, 0.71);
     padding: 0 20px 0 20px;
     box-shadow: 0 0 3px 0 rgba(21, 21, 21, 0.16);
     z-index: 1; }
     @media screen and (max-width: 1000px) {
       .contacts .map-container {
-        margin: 37px 0 40px 0;
+        margin: 37px 0 0 0;
         width: 100%;
         max-width: 500px; } }
     .contacts .map-container .contact-information {
