@@ -5,9 +5,21 @@
 .small-team {
   position: relative;
   width: 100%;
-  max-width: 1440px;
-  height: 1400px;
+  height: auto;
   background-color: #f9fbfb;
+
+  @media screen and (min-width: 1440px) {
+    width: 100%;
+    max-width: 1440px;
+    height: 1400px;
+  }
+
+
+
+
+
+
+
 
 
   .small-team-header {
@@ -22,14 +34,19 @@
 
   .small-team-examples {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px 0 20px;
     margin: 110px 0 0 0;
 
 
     .person-item {
       margin: 5px 6px 6px 5px;
+      max-width: 370px;
+      width: 100%;
+      height: auto;
       cursor: pointer;
     }
 
@@ -37,6 +54,9 @@
     .person-item:focus {
       margin: 5px 6px 6px 5px;
       opacity: 0.5;
+      max-width: 370px;
+      width: 100%;
+      height: auto;
       cursor: pointer;
       transition: opacity 200ms linear;
     }
