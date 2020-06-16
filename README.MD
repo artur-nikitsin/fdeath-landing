@@ -1,5 +1,5 @@
 ---
-### no-adaptive :(
+
 
 ### gh-pages link:
 

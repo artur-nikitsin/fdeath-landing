@@ -223,13 +223,13 @@
       width: 100%;
       max-width: 1440px;
       height: 1165px; } }
-  .featured-works .featured-works-header {
+  .featured-works .featured-works__header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin: 30px 0 0 0; }
-    .featured-works .featured-works-header h1 {
+    .featured-works .featured-works__header h1 {
       font-size: 38px;
       font-family: 'Montserrat', sans-serif;
       color: rgba(0, 0, 0, 0.902);
@@ -238,7 +238,7 @@
       text-align: center;
       margin: 90px 0 0 0;
       letter-spacing: 1px; }
-    .featured-works .featured-works-header h2 {
+    .featured-works .featured-works__header h2 {
       /*font-size: 1.055vw;*/
       font-size: 15px;
       font-family: 'Merriweather', serif;
@@ -250,7 +250,7 @@
       /*left: 409.664px;
     top: 972.496px;
     z-index: 46;*/ }
-  .featured-works .featured-works-examples {
+  .featured-works .featured-works__examples {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -258,14 +258,14 @@
     flex-wrap: wrap;
     padding: 0 20px 0 20px;
     margin: 110px 0 0 0; }
-    .featured-works .featured-works-examples .examles-item {
+    .featured-works .featured-works__examples .featured-works__examle-item {
       margin: 5px 5px 8px 5px;
       cursor: pointer;
       max-width: 370px;
       width: 100%;
       height: auto; }
-    .featured-works .featured-works-examples .examles-item:hover,
-    .featured-works .featured-works-examples .examles-item:focus {
+    .featured-works .featured-works__examples .featured-works__examle-item_active:hover,
+    .featured-works .featured-works__examples .featured-works__examle-item_active:focus {
       margin: 5px 5px 8px 5px;
       opacity: 0.5;
       max-width: 370px;
@@ -291,7 +291,7 @@
   .bs-popover-top .arrow {
     margin: 0 0 0 -284px;
     padding: 5px !important; }
-  .bs-popover-top .popover-title .person-name {
+  .bs-popover-top .popover__title .person-name {
     font-size: 20px;
     font-weight: bolder;
     font-family: 'Merriweather', serif;
@@ -299,7 +299,7 @@
     color: rgba(39, 39, 39, 0.949);
     line-height: 1.2;
     text-transform: uppercase; }
-  .bs-popover-top .popover-title .popover-direction {
+  .bs-popover-top .popover__title .popover__direction {
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
@@ -307,7 +307,7 @@
     color: rgba(39, 39, 39, 0.5);
     text-transform: none;
     margin: 5px 0 0 5px; }
-  .bs-popover-top .popover-text {
+  .bs-popover-top .popover__text {
     font-family: 'Raleway', serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
@@ -367,7 +367,7 @@
   .bs-popover-bottom .arrow {
     margin: 0 0 0 -284px;
     padding: 5px !important; }
-  .bs-popover-bottom .popover-title .person-name {
+  .bs-popover-bottom .popover__title .person-name {
     font-size: 20px;
     font-weight: bolder;
     font-family: 'Merriweather', serif;
@@ -375,7 +375,7 @@
     color: rgba(39, 39, 39, 0.949);
     line-height: 1.2;
     text-transform: uppercase; }
-  .bs-popover-bottom .popover-title .popover-direction {
+  .bs-popover-bottom .popover__title .popover__direction {
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
@@ -383,7 +383,7 @@
     color: rgba(39, 39, 39, 0.5);
     text-transform: none;
     margin: 5px 0 0 5px; }
-  .bs-popover-bottom .popover-text {
+  .bs-popover-bottom .popover__text {
     font-family: 'Raleway', serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
@@ -436,12 +436,12 @@
       width: 100%;
       max-width: 1440px;
       height: 1400px; } }
-  .small-team .small-team-header {
+  .small-team .small-team__header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; }
-    .small-team .small-team-header h1 {
+    .small-team .small-team__header h1 {
       font-size: 38px;
       font-family: 'Montserrat', sans-serif;
       color: rgba(0, 0, 0, 0.902);
@@ -450,7 +450,7 @@
       text-align: center;
       margin: 90px 0 0 0;
       letter-spacing: 1px; }
-    .small-team .small-team-header h2 {
+    .small-team .small-team__header h2 {
       /*font-size: 1.055vw;*/
       font-size: 15px;
       font-family: 'Merriweather', serif;
@@ -462,7 +462,7 @@
       /*left: 409.664px;
     top: 972.496px;
     z-index: 46;*/ }
-  .small-team .small-team-examples {
+  .small-team .small-team__examples {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -470,21 +470,19 @@
     flex-wrap: wrap;
     padding: 0 20px 0 20px;
     margin: 110px 0 0 0; }
-    .small-team .small-team-examples .person-item {
+    .small-team .small-team__examples .person-item {
       margin: 5px 6px 6px 5px;
       max-width: 370px;
       width: 100%;
       height: auto;
       cursor: pointer; }
-    .small-team .small-team-examples .person-item:hover,
-    .small-team .small-team-examples .person-item:focus {
+    .small-team .small-team__examples .person-item:hover,
+    .small-team .small-team__examples .person-item:focus {
       margin: 5px 6px 6px 5px;
-      /*opacity: 0.5;*/
       max-width: 370px;
       width: 100%;
       height: auto;
-      cursor: pointer;
-      /*transition: opacity 200ms linear;*/ }
+      cursor: pointer; }
 
 .footer {
   display: flex;
@@ -497,18 +495,18 @@
   height: 320px;
   background-color: #262b2e;
   z-index: 100; }
-  .footer .follow-us {
+  .footer .follow-us-header {
     margin: -50px 0 0 -10px; }
-    .footer .follow-us p {
+    .footer .follow-us-header p {
       font-size: 16px;
       font-family: "Raleway", sans-serif;
       color: rgba(255, 255, 255, 0.8);
       line-height: 1px;
       text-transform: uppercase; }
-  .footer .social {
+  .footer .social-contacts-list {
     display: flex;
     margin: 5px 0 0 -44px; }
-    .footer .social li {
+    .footer .social-contacts-list li {
       list-style-type: none;
       font-size: 20px;
       text-align: center;
@@ -520,8 +518,8 @@
       margin: 4px;
       padding: 3px 0 0 0;
       z-index: 2000; }
-    .footer .social li:hover,
-    .footer .social li:focus {
+    .footer .social-contacts-list li:hover,
+    .footer .social-contacts-list li:focus {
       list-style-type: none;
       font-size: 20px;
       text-align: center;
@@ -550,56 +548,56 @@
       width: 100%;
       max-width: 1440px;
       height: 665px; } }
-  .contacts .send-message {
+  .contacts .contact-form {
     width: 610px;
     height: 457px;
     margin: 45px 0 0 0;
     background-color: rgba(2, 22, 35, 0.71);
     /* opacity: 0.71;*/
     box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12); }
-    .contacts .send-message .inputs-container {
+    .contacts .contact-form .inputs-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding: 57px 30px 0 30px; }
-      .contacts .send-message .inputs-container input::placeholder {
+      .contacts .contact-form .inputs-container input::placeholder {
         font-size: 16px;
         font-family: "Raleway";
         color: rgba(255, 255, 255, 0.6);
         font-weight: lighter;
         margin: 50px;
         line-height: 28px; }
-      .contacts .send-message .inputs-container .name-input {
+      .contacts .contact-form .inputs-container .name-input {
         height: 40px;
         border: 0 solid #fff;
         background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0; }
-      .contacts .send-message .inputs-container .subject-input {
+      .contacts .contact-form .inputs-container .subject-input {
         height: 40px;
         border: 0 solid #fff;
         background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0; }
-      .contacts .send-message .inputs-container .email-input {
+      .contacts .contact-form .inputs-container .email-input {
         height: 40px;
         border: 0 solid #fff;
         background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -25px 0 46px 0; }
-      .contacts .send-message .inputs-container .message-input {
+      .contacts .contact-form .inputs-container .contact-form__message-input {
         height: 100px;
         border: 0 solid rgba(255, 255, 255, 0.7);
         background-color: rgba(2, 22, 35, 0);
         border-bottom: 1px solid #ffffff;
         margin: -10px 0 0 0; }
-      .contacts .send-message .inputs-container textarea::placeholder {
+      .contacts .contact-form .inputs-container textarea::placeholder {
         font-size: 16px;
         font-family: "Raleway";
         color: rgba(255, 255, 255, 0.6);
         font-weight: lighter;
         margin: 50px; }
-  .contacts .map-container {
+  .contacts .contacts-block {
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -610,36 +608,36 @@
     box-shadow: 0 0 3px 0 rgba(21, 21, 21, 0.16);
     z-index: 1; }
     @media screen and (max-width: 1000px) {
-      .contacts .map-container {
+      .contacts .contacts-block {
         margin: 37px 0 0 0;
         width: 100%;
         max-width: 500px; } }
-    .contacts .map-container .contact-information {
+    .contacts .contacts-block .contact-information {
       width: 455px;
       height: 190px;
       margin: 10px 0 0 5px; }
-      .contacts .map-container .contact-information .contact-adress {
+      .contacts .contacts-block .contact-information .contact-information__contact-adres {
         margin: 24px 0 40px 10px; }
-        .contacts .map-container .contact-information .contact-adress p {
+        .contacts .contacts-block .contact-information .contact-information__contact-adres p {
           font-size: 16px;
           font-family: "Raleway";
           color: rgba(255, 255, 255, 0.702);
           line-height: 8px; }
-      .contacts .map-container .contact-information .i-contact {
+      .contacts .contacts-block .contact-information .contact-information__web {
         margin: 0 0 0 10px; }
-        .contacts .map-container .contact-information .i-contact p {
+        .contacts .contacts-block .contact-information .contact-information__web p {
           font-size: 16px;
           font-family: "Raleway";
           color: rgba(255, 255, 255, 0.702);
           line-height: 8px; }
-    .contacts .map-container .map {
+    .contacts .contacts-block .map {
       position: relative;
       max-width: 455px;
       height: 225px;
       margin: 13px 0 20px 0;
       z-index: 1000; }
       @media screen and (max-width: 550px) {
-        .contacts .map-container .map {
+        .contacts .contacts-block .map {
           width: 100%;
           height: 200px; } }
   .contacts .button-container {

@@ -26,7 +26,7 @@
     padding: 5px !important;
   }
 
-  .popover-title {
+  .popover__title {
 
     .person-name {
       font-size: 20px;
@@ -39,7 +39,7 @@
       text-transform: uppercase;
     }
 
-    .popover-direction {
+    .popover__direction {
       font-size: 16px;
       font-weight: normal;
       font-style: italic;
@@ -52,7 +52,7 @@
   }
 
 
-  .popover-text {
+  .popover__text {
     font-family: 'Raleway', serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);

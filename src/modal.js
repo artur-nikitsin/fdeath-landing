@@ -3,7 +3,7 @@ import "bootstrap"
 import "popper.js"
 
 $(document).ready(function () {
-    $('.show-modal').on('click', function () {
+    $('.featured-works__examle-item_active').on('click', function () {
         $('#galleryModal').modal('show')
     })
 });

@@ -16,7 +16,7 @@
   }
 
 
-  .send-message {
+  .contact-form {
     width: 610px;
     height: 457px;
     margin: 45px 0 0 0;
@@ -64,7 +64,7 @@
       }
 
 
-      .message-input {
+      .contact-form__message-input {
         height: 100px;
         border: 0 solid rgba(255, 255, 255, 0.7);;
         background-color: rgba(2, 22, 35, 0);
@@ -88,7 +88,7 @@
   }
 
 
-  .map-container {
+  .contacts-block {
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -113,7 +113,7 @@
       margin: 10px 0 0 5px;
 
 
-      .contact-adress {
+      .contact-information__contact-adres {
 
         margin: 24px 0 40px 10px;
 
@@ -127,7 +127,7 @@
 
       }
 
-      .i-contact {
+      .contact-information__web {
         margin: 0 0 0 10px;
 
         p {

@@ -63,9 +63,9 @@ $(function () {
             template: '<div class="popover" ' +
                 'role="tooltip">' +
                 '<div class="arrow"></div>' +
-                '<h3 class="popover-title"><span class="person-name">' + personName +
-                '<span> <span class="popover-direction">  /' + personDirection + '<span></h3>' +
-                '<p class="popover-text">' + aboutPerson + '</p>' +
+                '<h3 class="popover__title"><span class="person-name">' + personName +
+                '<span> <span class="popover__direction">  /' + personDirection + '<span></h3>' +
+                '<p class="popover__text">' + aboutPerson + '</p>' +
                 '<ul class="popover-social">' +
                 '<li><a href=""><i class="fab fa-facebook-f"></a></i><li/> ' +
                 '<li><a href=""><i class="fab fa-twitter"></i></a><li/> ' +
