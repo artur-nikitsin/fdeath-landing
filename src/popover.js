@@ -2,33 +2,39 @@ import $ from "jquery";
 
 let team = [{
     id: "Clara",
-    text: "rwerwerfrsgrger",
+    name:"Clara",
+    text: "Lorem Ipsum is not simply is an action designer random text    It has roots in a peace.",
     direction: "UI Designer"
 }, {
-    id: "Sam",
-    text: "rfryjryjrtysgrger",
+    id: "Rayhan",
+    name:"Al Rayhan",
+    text: "Lorem Ipsum is not simply is an action designer random text    It has roots in a peace.",
     direction: "UI Designer"
 }, {
     id: "Ryan",
-    text: "rfrsg25d2dft54rger",
+    name:"Ryan",
+    text: "Lorem Ipsum is not simply is an action designer random text    It has roots in a peace.",
     direction: "UI Designer"
 }, {
     id: "Jake",
-    text: "rfrs4rtwrtfwergrger",
+    name:"Jake",
+    text: "Lorem Ipsum is not simply is an action designer random text    It has roots in a peace.",
     direction: "UI Designer"
 }, {
     id: "Zara",
-    text: "rfrs24yb3v6ertgsdfgrger",
+    name:"Zara",
+    text: "Lorem Ipsum is not simply is an action designer random text    It has roots in a peace.",
     direction: "UI Designer"
 }, {
     id: "Zina",
-    text: "rfr2d34d24d23r4wsgrger",
+    name:"Zina",
+    text: "Lorem Ipsum is not simply is an action designer random text    It has roots in a peace.",
     direction: "UI Designer"
 }];
 
 
 $(function () {
-    
+
     $(".person-item").on("mouseenter", function (e) {
 
         let _this = this;
@@ -42,7 +48,7 @@ $(function () {
 
             if (item.id === currentPerson) {
 
-                personName = item.id;
+                personName = item.name;
                 personDirection = item.direction;
                 aboutPerson = item.text;
             }
@@ -57,7 +63,8 @@ $(function () {
             template: '<div class="popover" ' +
                 'role="tooltip">' +
                 '<div class="arrow"></div>' +
-                '<h3 class="popover-title">' + personName + '<span>' + personDirection + '<span></h3>' +
+                '<h3 class="popover-title"><span class="person-name">' + personName +
+                '<span> <span class="popover-direction">  /' + personDirection + '<span></h3>' +
                 '<p class="popover-text">' + aboutPerson + '</p>' +
                 '<ul class="popover-social">' +
                 '<li><a href=""><i class="fab fa-facebook-f"></a></i><li/> ' +
