@@ -616,9 +616,9 @@
       width: 455px;
       height: 190px;
       margin: 10px 0 0 5px; }
-      .contacts .contacts-block .contact-information .contact-information__contact-adres {
+      .contacts .contacts-block .contact-information .contact-information__contact-adress {
         margin: 24px 0 40px 10px; }
-        .contacts .contacts-block .contact-information .contact-information__contact-adres p {
+        .contacts .contacts-block .contact-information .contact-information__contact-adress p {
           font-size: 16px;
           font-family: "Raleway";
           color: rgba(255, 255, 255, 0.702);
@@ -658,8 +658,8 @@
       color: rgba(0, 0, 0, 0.702);
       text-transform: uppercase;
       letter-spacing: 2px; }
-    .contacts .button-container .send-button:hover,
-    .contacts .button-container .send-button:focus {
+    .contacts .button-container .send-button_active:hover,
+    .contacts .button-container .send-button_active:focus {
       border-radius: 2px;
       outline-color: #6eeee4;
       background-color: #ffffff;
