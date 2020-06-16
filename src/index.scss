@@ -26,12 +26,14 @@ body {
 
 .background-image {
   position: absolute;
+  bottom: 0;
   opacity: 0.2;
   z-index: 0;
 
-  img {
-    position: relative;
 
+  img {
+    position: absolute;
+    bottom: 0;
     max-width: 1440px;
     width: 100%;
     height: auto;
