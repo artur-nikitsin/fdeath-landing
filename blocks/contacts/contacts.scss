@@ -113,7 +113,7 @@
       margin: 10px 0 0 5px;
 
 
-      .contact-information__contact-adres {
+      .contact-information__contact-adress {
 
         margin: 24px 0 40px 10px;
 
@@ -182,8 +182,8 @@
 
     }
 
-    .send-button:hover,
-    .send-button:focus {
+    .send-button_active:hover,
+    .send-button_active:focus {
       border-radius: 2px;
       outline-color: rgb(110, 238, 228);
       background-color: #ffffff;
