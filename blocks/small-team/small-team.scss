@@ -8,6 +8,7 @@
   height: auto;
   background-color: #f9fbfb;
 
+
   @media screen and (min-width: 1440px) {
     width: 100%;
     max-width: 1440px;
@@ -42,12 +43,14 @@
     margin: 110px 0 0 0;
 
 
+
     .person-item {
       margin: 5px 6px 6px 5px;
       max-width: 370px;
       width: 100%;
       height: auto;
       cursor: pointer;
+
     }
 
     .person-item:hover,
